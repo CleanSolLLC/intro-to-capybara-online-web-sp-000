@@ -7,7 +7,7 @@ class Application < Sinatra::Base
   
   post '/greet' do
     
-    erb :greet
+    raise params.inspect
   end
 
 end
